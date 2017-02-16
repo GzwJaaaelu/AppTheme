@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorPrimary</item>
+    </style>
+
+    <style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPink</item>
+        <item name="colorPrimaryDark">@color/colorPink</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorPink</item>
+    </style>
+
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPurple</item>
+        <item name="colorPrimaryDark">@color/colorPurple</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorPurple</item>
+    </style>
+
+    <style name="IndigoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorIndigo</item>
+        <item name="colorPrimaryDark">@color/colorIndigo</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorIndigo</item>
+    </style>
+
+    <style name="TealTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTeal</item>
+        <item name="colorPrimaryDark">@color/colorTeal</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorTeal</item>
+    </style>
+
+    <style name="BrownTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBrown</item>
+        <item name="colorPrimaryDark">@color/colorBrown</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorBrown</item>
+    </style>
+
+    <style name="BlueGreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlueGrey</item>
+        <item name="colorPrimaryDark">@color/colorBlueGrey</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorWhite</item>
+        <item name="viewBg">@color/colorBlueGrey</item>
+    </style>
+
+    <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNight</item>
+        <item name="colorPrimaryDark">@color/colorNight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="gbg">@color/colorNightBg</item>
+        <item name="viewBg">@color/colorNight</item>
+    </style>
+
+    <attr name="gbg" format="color|reference"></attr>
+
+    <attr name="viewBg" format="color|reference"></attr>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- 用于开启滑动返回功能的 Activity -->
+    <style name="AppTheme.Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>
